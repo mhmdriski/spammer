@@ -17,7 +17,7 @@ gelap = '\x1b[0;37m'
 logo = """
 %s ___ _ __   __ _ _ __ ___  _ __ ___   ___ _ __
 / __| '_ \ / _` | '_ ` _ \| '_ ` _ \ / _ \ '__|
-\__ \ |_) | (_| | | | | | | | | | | |  __/ |
+\__ \ |_) | (_| | | | | | | | | | | |  __https://github.com/mhmdriski/spammer/blob/master/spammer.py |
 |___/ .__/ \__,_|_| |_| |_|_| |_| |_|\___|_|
     | | %sAuthor %s: %sMR15K1
 %s    |_| %sGithub %s: %shttps://github.com/mhmdriski
@@ -62,7 +62,7 @@ def pilih():
                             print '     \x1b[1;97m{\x1b[1;91m'+str(a)+'\x1b[1;97m} \x1b[1;91m'+(x)+' \x1b[1;97m=> \x1b[0;37m'+nomor
                     except requests.exceptions.ConnectionError:
                         print '%s{%s!%s} %sCheck Your Connection'%(putih,merah,putih,merah);exit()
-                print '\n%s{%s✓%s} %sDone %s.....'%(putih,hijau,putih,hijau,putih)
+                print '\n%s{%s%s} %sDone %s.....'%(putih,hijau,putih,hijau,putih)
                 raw_input('%s{%s!%s} %sEnter returns to the menu%s:'%(putih,merah,putih,putih,merah))
                 main()
             except KeyboardInterrupt:
